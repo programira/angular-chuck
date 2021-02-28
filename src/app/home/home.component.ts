@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { CategoriesService } from '../shared/services/categories.service';
 import { Category } from 'src/app/shared/models/categories'
+import { takeUntil } from 'rxjs/operators';
 
 
 @Component({
@@ -20,7 +21,7 @@ export class HomeComponent implements OnInit {
 
   getCategories(): void {
     this.categoriesService.getCategories()
-    .subscribe(categories => console.log(categories))
+      .subscribe((categories) => (this.categories = categories));
   }
 
 
