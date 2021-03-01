@@ -28,7 +28,7 @@ export class HomeComponent implements OnInit {
 
   open(category: string) {
     const modalRef = this.modalService.open(JokeComponent);
-    modalRef.componentInstance.name = 'World';
+    modalRef.componentInstance.name = category;
 
     // this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
     //   this.closeResult = `Closed with: ${result}`;
