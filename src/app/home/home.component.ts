@@ -15,7 +15,9 @@ export class HomeComponent implements OnInit {
   categories: Category[] = [];
   closeResult = '';
 
-  constructor(private categoriesService: CategoriesService, private modalService: NgbModal) { }
+  constructor(private categoriesService: CategoriesService, private modalService: NgbModal) { 
+    this.categories = []; // proveri da li je ovo neophodno zbog toString u htmlu
+  }
 
   ngOnInit(): void {
     this.getCategories();

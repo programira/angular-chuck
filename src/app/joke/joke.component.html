@@ -6,9 +6,10 @@
 </div>
 <div class="modal-body">
   <div class="text-center">
-    <img src="..." class="rounded" alt="...">
+    <img src="{{joke?.icon_url}}" class="rounded" alt="...">
     <p>Joke</p>
-    <button type="button" class="btn btn-primary">Another one</button>
+    <p>{{joke?.value}}</p>
+    <button type="button" class="btn btn-primary" (click)="getJoke(this.name)">Another one</button>
   </div>
 </div>
 <div class="modal-footer">
