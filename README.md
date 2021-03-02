@@ -13,13 +13,13 @@ Desktop screenshot - All categories
 ![Desktop screenshot](https://i.ibb.co/rtcsXw7/Screenshot-2021-03-02-at-22-19-43.png)
 
 Mobile screenshot - All categories
-![Mobile screenshot](https://i.ibb.co/dmQWhfL/Screenshot-2021-03-02-at-22-22-49.png)
+![Mobile screenshot](https://i.ibb.co/dmQWhfL/Screenshot-2021-03-02-at-22-22-49.png | width=250)
 
 Desktop screenshot - Single joke
 ![Desktop screenshot](https://i.ibb.co/1vhWCVB/Screenshot-2021-03-02-at-22-27-41.png)
 
 Mobile screenshot - Single joke 
-![Mobile screenshot](https://i.ibb.co/Hq8XhH4/Screenshot-2021-03-02-at-22-31-51.png)
+![Mobile screenshot](https://i.ibb.co/Hq8XhH4/Screenshot-2021-03-02-at-22-31-51.png | width=250)
 
 Desktop screenshot - Custom theme
 ![Desktop screenshot](https://i.ibb.co/BncqNKc/Screenshot-2021-03-02-at-22-41-33.png)
