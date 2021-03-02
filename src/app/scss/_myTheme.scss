@@ -1,0 +1,28 @@
+$theme-colors: (
+    "primary": #84329b,
+    "secondary": #02bceb
+);
+
+.green-theme {
+
+  button {
+    background-color: #078b5c;
+    &:hover, &:active {
+      background-color: #00a767;
+    }
+    &.btn-primary {
+      &:active, &:visited, &:focus {
+        background-color: #00a767 !important;
+      }
+      &:focus {
+        box-shadow: 0 0 0 0.2rem #28a74547;
+        border-color:  #078b5c;
+      }
+    }
+  }
+  .navbar {
+    background-color: black !important;
+  }
+  
+}
+
