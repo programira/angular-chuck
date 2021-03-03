@@ -6,9 +6,14 @@
 </div>
 <div class="modal-body">
   <div class="text-center">
-    <img src="{{joke?.icon_url}}" class="rounded" alt="...">
-    <p>Joke</p>
-    <p>{{joke?.value}}</p>
+    <div class="alert alert-danger" role="alert" *ngIf="!joke else jokebox">
+      There have been some problems with displaying a joke. Please try again.
+    </div>
+    <ng-template #jokebox>
+      <img src="{{joke?.icon_url}}" class="rounded" alt="...">
+      <p>Joke</p>
+      <p>{{joke?.value}}</p>
+    </ng-template>
     <button type="button" class="btn btn-primary" (click)="getJoke(this.name)">Another one</button>
   </div>
 </div>

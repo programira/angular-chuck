@@ -13,16 +13,24 @@ Desktop screenshot - All categories
 ![Desktop screenshot](https://i.ibb.co/rtcsXw7/Screenshot-2021-03-02-at-22-19-43.png)
 
 Mobile screenshot - All categories
+
 ![Mobile screenshot](https://i.ibb.co/k60Qr6T/Screenshot-2021-03-02-at-22-22-49.png)
 
 Desktop screenshot - Single joke
 ![Desktop screenshot](https://i.ibb.co/1vhWCVB/Screenshot-2021-03-02-at-22-27-41.png)
 
 Mobile screenshot - Single joke 
+
 ![Mobile screenshot](https://i.ibb.co/DYhgLct/Screenshot-2021-03-02-at-22-31-51.png)
 
 Desktop screenshot - Custom theme
 ![Desktop screenshot](https://i.ibb.co/BncqNKc/Screenshot-2021-03-02-at-22-41-33.png)
+
+Desktop screenshot - Error handling of no categories displayed
+![Desktop screenshot](https://i.ibb.co/mym0YLd/Screenshot-2021-03-03-at-16-08-56.png)
+
+Desktop screenshot - Error handling of no joke displayed
+![Desktop screenshot](https://i.ibb.co/TMV1d8T/Screenshot-2021-03-03-at-16-33-52.png)
 
 ## Development server
 
