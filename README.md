@@ -7,6 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 When the user lands in the app they should see a list of categories (capitalised) coming from
 the API. Each category is a button. When they click on the category button, a modal appears with a random joke from this category. Users can load another random joke clicking the
 “Another one” button below the joke. To go back to the categories screen, they can click close the modal.
+User can also change the theme by clicking on "Change theme" in the main menu.
+When no category or joke is displayed, the error message is shown.
 
 # Screenshots
 Desktop screenshot - All categories
