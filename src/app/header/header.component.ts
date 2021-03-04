@@ -9,9 +9,11 @@ import { HeaderService } from '../shared/services/header.service';
 })
 export class HeaderComponent implements OnInit {
   isGreenTheme = false;
-  theme =  localStorage.getItem('theme');
+  theme: string | null;
 
-  constructor(private headerService: HeaderService) { }
+  constructor(private headerService: HeaderService) {
+    this.theme =  localStorage.getItem('theme');
+  }
 
   ngOnInit(): void {
     this.headerService
@@ -22,7 +24,6 @@ export class HeaderComponent implements OnInit {
   }
 
   changeTheme(): void {
-    this.theme = localStorage.getItem('theme');
     // console.log(localStorage.getItem('theme'));
     if (this.isGreenTheme == false) {
       this.headerService.setTheme('green-theme');
