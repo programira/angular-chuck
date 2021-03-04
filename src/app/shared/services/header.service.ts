@@ -5,9 +5,11 @@ import { BehaviorSubject, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class HeaderService {
-  greenThemeEventEmitter$ = new BehaviorSubject<string>('');
+  private greenThemeEventEmitter$;
 
-  constructor() { }
+  constructor() { 
+    this.greenThemeEventEmitter$ =  new BehaviorSubject<string>('');
+  }
 
   setTheme(theme: string) {
     this.greenThemeEventEmitter$.next(theme);
