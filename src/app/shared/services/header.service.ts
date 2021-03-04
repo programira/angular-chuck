@@ -9,7 +9,7 @@ export class HeaderService {
 
   constructor() { }
 
-  setGreenTheme(theme: string) {
+  setTheme(theme: string) {
     this.greenThemeEventEmitter$.next(theme);
   }
 

@@ -25,9 +25,9 @@ export class HeaderComponent implements OnInit {
     this.theme = localStorage.getItem('theme');
     // console.log(localStorage.getItem('theme'));
     if (this.isGreenTheme == false) {
-      this.headerService.setGreenTheme('green-theme');
+      this.headerService.setTheme('green-theme');
     } else {
-      this.headerService.setGreenTheme('');
+      this.headerService.setTheme('');
     }
   }
 

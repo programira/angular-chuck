@@ -21,7 +21,7 @@ export class AppComponent {
 
   ngOnInit() {const lsTheme = localStorage.getItem('theme');
     if (!!lsTheme) {
-      this.headerService.setGreenTheme(lsTheme);
+      this.headerService.setTheme(lsTheme);
     }
     this.headerService
       .observeThemeChange()
