@@ -1,22 +1,22 @@
-$theme-colors: (
-    "primary": #84329b,
-    "secondary": #02bceb
-);
+
+$bc_dark_green:#078b5c;
+$bc_light_green:#00a767;
 
 .green-theme {
 
   button {
-    background-color: #078b5c;
+    border-color: $bc_dark_green;
+    background-color: $bc_dark_green;
     &:hover, &:active {
-      background-color: #00a767;
+      background-color: $bc_light_green;
     }
     &.btn-primary {
       &:active, &:visited, &:focus {
-        background-color: #00a767 !important;
+        background-color: $bc_light_green !important;
       }
       &:focus {
         box-shadow: 0 0 0 0.2rem #28a74547;
-        border-color:  #078b5c;
+        border-color: $bc_dark_green;
       }
     }
   }
